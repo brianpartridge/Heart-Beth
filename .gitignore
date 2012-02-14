@@ -1,0 +1,12 @@
+# OSX
+.DS_Store
+
+# XCode
+build/
+*.mode1v3
+*.pbxuser
+xcuserdata/
+project.xcworkspace/
+
+# Misc
+*.bak
