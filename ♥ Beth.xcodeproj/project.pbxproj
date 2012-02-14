@@ -22,6 +22,8 @@
 		17B931B814EAD3A400A36B64 /* exploding-earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17B931B714EAD3A400A36B64 /* exploding-earth.jpg */; };
 		17B931BA14EAD64900A36B64 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B931B914EAD64900A36B64 /* QuartzCore.framework */; };
 		17B931BC14EAEDD400A36B64 /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B931BB14EAEDD400A36B64 /* smile.png */; };
+		17B931C714EAF5FE00A36B64 /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B931C614EAF5FE00A36B64 /* Icon-57.png */; };
+		17B931C914EAF60400A36B64 /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B931C814EAF60400A36B64 /* Icon-114.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		17B931B714EAD3A400A36B64 /* exploding-earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "exploding-earth.jpg"; sourceTree = "<group>"; };
 		17B931B914EAD64900A36B64 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		17B931BB14EAEDD400A36B64 /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
+		17B931C614EAF5FE00A36B64 /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57.png"; sourceTree = "<group>"; };
+		17B931C814EAF60400A36B64 /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-114.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +69,8 @@
 		17B9318314EACA6500A36B64 = {
 			isa = PBXGroup;
 			children = (
-				17B931B914EAD64900A36B64 /* QuartzCore.framework */,
+				17B931C814EAF60400A36B64 /* Icon-114.png */,
+				17B931C614EAF5FE00A36B64 /* Icon-57.png */,
 				17B9319814EACA6500A36B64 /* ♥ Beth */,
 				17B9319114EACA6500A36B64 /* Frameworks */,
 				17B9318F14EACA6500A36B64 /* Products */,
@@ -83,6 +88,7 @@
 		17B9319114EACA6500A36B64 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				17B931B914EAD64900A36B64 /* QuartzCore.framework */,
 				17B9319214EACA6500A36B64 /* UIKit.framework */,
 				17B9319414EACA6500A36B64 /* Foundation.framework */,
 				17B9319614EACA6500A36B64 /* CoreGraphics.framework */,
@@ -93,18 +99,13 @@
 		17B9319814EACA6500A36B64 /* ♥ Beth */ = {
 			isa = PBXGroup;
 			children = (
-				17B931AF14EACB2C00A36B64 /* heart.svg */,
 				17B931A114EACA6600A36B64 /* AppDelegate.h */,
 				17B931A214EACA6600A36B64 /* AppDelegate.m */,
 				17B931A414EACA6600A36B64 /* ViewController.h */,
 				17B931A514EACA6600A36B64 /* ViewController.m */,
 				17B931A714EACA6600A36B64 /* ViewController.xib */,
+				17B931CA14EAF61900A36B64 /* Resources */,
 				17B9319914EACA6500A36B64 /* Supporting Files */,
-				17B931B114EACBF500A36B64 /* index.html */,
-				17B931BB14EAEDD400A36B64 /* smile.png */,
-				17B931B314EAD31C00A36B64 /* butt.jpg */,
-				17B931B414EAD31C00A36B64 /* goof.png */,
-				17B931B714EAD3A400A36B64 /* exploding-earth.jpg */,
 			);
 			path = "♥ Beth";
 			sourceTree = "<group>";
@@ -118,6 +119,19 @@
 				17B931A014EACA6500A36B64 /* ♥ Beth-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17B931CA14EAF61900A36B64 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17B931AF14EACB2C00A36B64 /* heart.svg */,
+				17B931B114EACBF500A36B64 /* index.html */,
+				17B931BB14EAEDD400A36B64 /* smile.png */,
+				17B931B314EAD31C00A36B64 /* butt.jpg */,
+				17B931B414EAD31C00A36B64 /* goof.png */,
+				17B931B714EAD3A400A36B64 /* exploding-earth.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +193,8 @@
 				17B931B614EAD31C00A36B64 /* goof.png in Resources */,
 				17B931B814EAD3A400A36B64 /* exploding-earth.jpg in Resources */,
 				17B931BC14EAEDD400A36B64 /* smile.png in Resources */,
+				17B931C714EAF5FE00A36B64 /* Icon-57.png in Resources */,
+				17B931C914EAF60400A36B64 /* Icon-114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +319,7 @@
 				17B931AE14EACA6600A36B64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
